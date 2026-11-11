@@ -1,0 +1,441 @@
+{
+ "raw": {
+  "rows": 1040,
+  "duplicateRows": 23,
+  "duplicateIds": 40,
+  "nulls": {
+   "Genero": 196,
+   "Edad": 55,
+   "Categoria_Producto": 136,
+   "Precio_Total": 26,
+   "Metodo_Pago": 339
+  },
+  "negativePrices": 16,
+  "zeroQuantity": 10,
+  "categories": [
+   {
+    "value": "(vacío)",
+    "n": 136
+   },
+   {
+    "value": "  Electrónicos  ",
+    "n": 94
+   },
+   {
+    "value": "Electronica",
+    "n": 72
+   },
+   {
+    "value": "deportes",
+    "n": 66
+   },
+   {
+    "value": "Electrónicos",
+    "n": 61
+   },
+   {
+    "value": "ROPA",
+    "n": 59
+   },
+   {
+    "value": "Alimentos",
+    "n": 56
+   },
+   {
+    "value": "HOGAR",
+    "n": 54
+   },
+   {
+    "value": "Ropa",
+    "n": 53
+   },
+   {
+    "value": "alimentos",
+    "n": 50
+   },
+   {
+    "value": "Deportes",
+    "n": 49
+   },
+   {
+    "value": "Hogar",
+    "n": 47
+   },
+   {
+    "value": "  Hogar  ",
+    "n": 30
+   },
+   {
+    "value": "  Alimentos  ",
+    "n": 26
+   },
+   {
+    "value": "  HOGAR  ",
+    "n": 26
+   },
+   {
+    "value": "  alimentos  ",
+    "n": 25
+   },
+   {
+    "value": "    Electrónicos    ",
+    "n": 24
+   },
+   {
+    "value": "  Deportes  ",
+    "n": 22
+   },
+   {
+    "value": "  Electronica  ",
+    "n": 21
+   },
+   {
+    "value": "    ",
+    "n": 20
+   },
+   {
+    "value": "  Ropa  ",
+    "n": 17
+   },
+   {
+    "value": "  ROPA  ",
+    "n": 16
+   },
+   {
+    "value": "  deportes  ",
+    "n": 16
+   }
+  ],
+  "genders": [
+   {
+    "value": "(vacío)",
+    "n": 196
+   },
+   {
+    "value": "F",
+    "n": 118
+   },
+   {
+    "value": "M",
+    "n": 111
+   },
+   {
+    "value": "Hombre",
+    "n": 111
+   },
+   {
+    "value": "femenino",
+    "n": 106
+   },
+   {
+    "value": "Mujer",
+    "n": 103
+   },
+   {
+    "value": "Femenino",
+    "n": 99
+   },
+   {
+    "value": "masculino",
+    "n": 98
+   },
+   {
+    "value": "Masculino",
+    "n": 98
+   }
+  ]
+ },
+ "clean": {
+  "rows": 990,
+  "nulls": {
+   "Genero": 0,
+   "Edad": 0,
+   "Categoria_Producto": 20,
+   "Precio_Total": 0,
+   "Metodo_Pago": 0
+  },
+  "categories": {
+   "Electrónicos": 260,
+   "Hogar": 149,
+   "Alimentos": 149,
+   "Deportes": 144,
+   "Ropa": 137,
+   "Desconocido": 131,
+   "(vacío)": 20
+  },
+  "genders": {
+   "Femenino": 406,
+   "Masculino": 397,
+   "Desconocido": 187
+  },
+  "ageRanges": {
+   "18-25": 111,
+   "26-35": 151,
+   "36-50": 274,
+   "51+": 454
+  },
+  "payments": {
+   "Desconocido": 328,
+   "Tarjeta": 196,
+   "Efectivo": 163,
+   "Transferencia": 162,
+   "Debito": 141
+  },
+  "revenue": 1264588.41,
+  "customers": 286,
+  "avgTicket": 1277.36
+ },
+ "monthly": [
+  {
+   "month": "2023-01",
+   "revenue": 87634.1,
+   "transactions": 80
+  },
+  {
+   "month": "2023-02",
+   "revenue": 113930.64,
+   "transactions": 91
+  },
+  {
+   "month": "2023-03",
+   "revenue": 70146.05,
+   "transactions": 60
+  },
+  {
+   "month": "2023-04",
+   "revenue": 115666.73,
+   "transactions": 92
+  },
+  {
+   "month": "2023-05",
+   "revenue": 118969.47,
+   "transactions": 100
+  },
+  {
+   "month": "2023-06",
+   "revenue": 107063.05,
+   "transactions": 83
+  },
+  {
+   "month": "2023-07",
+   "revenue": 111242.92,
+   "transactions": 75
+  },
+  {
+   "month": "2023-08",
+   "revenue": 116801.32,
+   "transactions": 104
+  },
+  {
+   "month": "2023-09",
+   "revenue": 103182.81,
+   "transactions": 80
+  },
+  {
+   "month": "2023-10",
+   "revenue": 104768.29,
+   "transactions": 80
+  },
+  {
+   "month": "2023-11",
+   "revenue": 106654.19,
+   "transactions": 72
+  },
+  {
+   "month": "2023-12",
+   "revenue": 131307.19,
+   "transactions": 90
+  }
+ ],
+ "byCategory": [
+  {
+   "category": "Electrónicos",
+   "revenue": 332407.29,
+   "ticket": 1268.73,
+   "transactions": 262,
+   "units": 1321
+  },
+  {
+   "category": "Hogar",
+   "revenue": 202896.87,
+   "ticket": 1334.85,
+   "transactions": 152,
+   "units": 790
+  },
+  {
+   "category": "Deportes",
+   "revenue": 198404.52,
+   "ticket": 1340.57,
+   "transactions": 148,
+   "units": 834
+  },
+  {
+   "category": "Alimentos",
+   "revenue": 183418.82,
+   "ticket": 1198.82,
+   "transactions": 153,
+   "units": 759
+  },
+  {
+   "category": "Ropa",
+   "revenue": 174612.07,
+   "ticket": 1247.23,
+   "transactions": 140,
+   "units": 697
+  },
+  {
+   "category": "Desconocido",
+   "revenue": 171825.36,
+   "ticket": 1301.71,
+   "transactions": 132,
+   "units": 631
+  }
+ ],
+ "samples": [
+  {
+   "before": {
+    "Transaction_ID": 9,
+    "Genero": null,
+    "Edad": 79.0,
+    "Categoria_Producto": null,
+    "Cantidad": 5,
+    "Precio_Unitario": 325.49,
+    "Precio_Total": 1627.45,
+    "Metodo_Pago": null
+   },
+   "after": {
+    "Transaction_ID": 9,
+    "Genero": "Desconocido",
+    "Edad": 79,
+    "Categoria_Producto": "Desconocido",
+    "Cantidad": 5,
+    "Precio_Unitario": 325.49,
+    "Precio_Total": 1627.45,
+    "Metodo_Pago": "Desconocido"
+   }
+  },
+  {
+   "before": {
+    "Transaction_ID": 34,
+    "Genero": "F",
+    "Edad": 49.0,
+    "Categoria_Producto": "Deportes",
+    "Cantidad": 5,
+    "Precio_Unitario": -286.43,
+    "Precio_Total": -1432.15,
+    "Metodo_Pago": "Tarjeta"
+   },
+   "after": {
+    "Transaction_ID": 34,
+    "Genero": "Femenino",
+    "Edad": 49,
+    "Categoria_Producto": "Deportes",
+    "Cantidad": 5,
+    "Precio_Unitario": 286.43,
+    "Precio_Total": 1432.15,
+    "Metodo_Pago": "Tarjeta"
+   }
+  },
+  {
+   "before": {
+    "Transaction_ID": 49,
+    "Genero": "Femenino",
+    "Edad": 71.0,
+    "Categoria_Producto": "  HOGAR  ",
+    "Cantidad": 6,
+    "Precio_Unitario": 296.56,
+    "Precio_Total": 1779.3600000000001,
+    "Metodo_Pago": "Transferencia"
+   },
+   "after": {
+    "Transaction_ID": 49,
+    "Genero": "Femenino",
+    "Edad": 71,
+    "Categoria_Producto": "Hogar",
+    "Cantidad": 6,
+    "Precio_Unitario": 296.56,
+    "Precio_Total": 1779.36,
+    "Metodo_Pago": "Transferencia"
+   }
+  },
+  {
+   "before": {
+    "Transaction_ID": 46,
+    "Genero": "M",
+    "Edad": 75.0,
+    "Categoria_Producto": "Electronica",
+    "Cantidad": 4,
+    "Precio_Unitario": 154.9,
+    "Precio_Total": null,
+    "Metodo_Pago": null
+   },
+   "after": {
+    "Transaction_ID": 46,
+    "Genero": "Masculino",
+    "Edad": 75,
+    "Categoria_Producto": "Electrónicos",
+    "Cantidad": 4,
+    "Precio_Unitario": 154.9,
+    "Precio_Total": 619.6,
+    "Metodo_Pago": "Desconocido"
+   }
+  },
+  {
+   "before": {
+    "Transaction_ID": 67,
+    "Genero": "masculino",
+    "Edad": 36.0,
+    "Categoria_Producto": "  HOGAR  ",
+    "Cantidad": 0,
+    "Precio_Unitario": 259.02,
+    "Precio_Total": 1813.1399999999999,
+    "Metodo_Pago": "Efectivo"
+   },
+   "after": null
+  },
+  {
+   "before": {
+    "Transaction_ID": 5,
+    "Genero": "masculino",
+    "Edad": null,
+    "Categoria_Producto": "  alimentos  ",
+    "Cantidad": 9,
+    "Precio_Unitario": 169.33,
+    "Precio_Total": 1523.97,
+    "Metodo_Pago": "Tarjeta"
+   },
+   "after": {
+    "Transaction_ID": 5,
+    "Genero": "Masculino",
+    "Edad": 49,
+    "Categoria_Producto": "Alimentos",
+    "Cantidad": 9,
+    "Precio_Unitario": 169.33,
+    "Precio_Total": 1523.97,
+    "Metodo_Pago": "Tarjeta"
+   }
+  },
+  {
+   "before": {
+    "Transaction_ID": 45,
+    "Genero": null,
+    "Edad": 49.0,
+    "Categoria_Producto": "    ",
+    "Cantidad": 1,
+    "Precio_Unitario": 180.42,
+    "Precio_Total": 180.42,
+    "Metodo_Pago": null
+   },
+   "after": {
+    "Transaction_ID": 45,
+    "Genero": "Desconocido",
+    "Edad": 49,
+    "Categoria_Producto": null,
+    "Cantidad": 1,
+    "Precio_Unitario": 180.42,
+    "Precio_Total": 180.42,
+    "Metodo_Pago": "Desconocido"
+   }
+  }
+ ]
+}

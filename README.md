@@ -257,3 +257,18 @@ Las contribuciones son bienvenidas. Por favor:
 ---
 
 **Nota:** Este es un proyecto educativo de portafolio que demuestra habilidades en limpieza y procesamiento de datos.
+## Interfaz web (`web/`)
+
+Sitio estático (Vite + React) que muestra el proyecto con sus datos reales: el diagnóstico del archivo de origen,
+las 23 variantes de categoría y cómo quedan, siete ventas antes y después de limpiar, los ocho pasos del pipeline,
+el análisis de los datos limpios y los tests.
+
+```bash
+cd web
+npm install
+npm run dev            # http://localhost:5173
+```
+
+Si cambian los CSV: `python web/scripts/build_data.py` (recalcula `web/src/metrics/summary.json`).
+
+**Vercel:** importar el repo y elegir `web` como *Root Directory*; detecta Vite solo.
